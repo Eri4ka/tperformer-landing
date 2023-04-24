@@ -1,0 +1,28 @@
+@import './fonts/fonts.scss';
+@import './helpers/variables.scss';
+
+* {
+  font-family: var(--font), sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--app-bg-color);
+  color: var(--black-color);
+  font-size: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--badge-bg-color);
+}
+
+@import './modules/header.scss';
