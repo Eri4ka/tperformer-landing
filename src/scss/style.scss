@@ -51,5 +51,18 @@ body {
   position: relative;
 }
 
+.abs {
+  position: absolute;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex3 {
+  flex-grow: 3;
+  flex-basis: 0;
+}
+
 @import './modules/header.scss';
 @import './modules/main.scss';
