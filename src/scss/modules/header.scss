@@ -1,9 +1,8 @@
 .header {
-  &__container {
+  margin-bottom: 32rem;
+
+  &__wrapper {
     padding: 2rem 0;
-    max-width: 960px;
-    width: calc(100vw - var(--screen-margin));
-    margin: 0 auto;
   }
 
   &__top {
