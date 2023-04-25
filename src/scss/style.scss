@@ -23,6 +23,7 @@ html {
 body {
   background-color: var(--app-bg-color);
   color: var(--black-color);
+  overflow-x: hidden;
 }
 
 .badge {
@@ -66,3 +67,4 @@ body {
 
 @import './modules/header.scss';
 @import './modules/main.scss';
+@import './modules/cards.scss';
