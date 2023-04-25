@@ -1,0 +1,21 @@
+.info {
+  max-width: 1185px;
+  width: calc(100vw - var(--screen-margin));
+  margin: 0 auto;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  &__aside {
+    max-width: 545px;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+}
