@@ -1,9 +1,15 @@
 :root {
   --font: 'Inter';
   --screen-margin: 20px;
+  --base-font-size: 20px;
   --white-color: #ffffff;
   --black-color: #000000;
   --grey-color: #d9d9d9;
+  --grey-color20: #cccccc;
+  --grey-color60: #b3b3b3;
+  --grey-color80: #6d6d6d;
   --app-bg-color: var(--app-bg-color);
   --badge-bg-color: var(--grey-color);
+  --badge-bg-color-hover: var(--grey-color20);
+  --form-bg-color: var(--grey-color);
 }
