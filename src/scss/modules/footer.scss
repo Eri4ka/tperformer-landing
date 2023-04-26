@@ -17,18 +17,17 @@
     display: flex;
     gap: 33px;
 
-    &__single {
-    }
-
     &__text {
       text-transform: uppercase;
       margin-bottom: 1.5rem;
     }
 
-    &__list {
-    }
-
     &__item {
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--grey-color80);
+      }
     }
   }
 
