@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "gulp",
-    "build": "gulp build --build",
+    "build": "cross-env NODE_ENV=production gulp build",
     "stylelint": "stylelint src/**/*{.css,.scss}",
     "stylelint:fix": "stylelint src/**/*{.css,.scss} --fix",
     "prettier": "prettier --check src/**/*.js",
@@ -18,6 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.10",
+    "cross-env": "^7.0.3",
     "del": "^7.0.0",
     "eslint": "^8.25.0",
     "eslint-config-airbnb": "^19.0.4",

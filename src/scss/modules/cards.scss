@@ -3,6 +3,7 @@
   width: calc(100vw - var(--screen-margin));
   margin: 0 auto;
   margin-bottom: 6.2rem;
+  display: none; //temp
 
   &__list {
     display: grid;

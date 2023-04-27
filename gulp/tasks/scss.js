@@ -21,6 +21,12 @@ export const scss = (dartSass) => {
       .pipe(
         app.plugins.if(
           app.isBuild,
+          app.plugins.replace(/\.\.\/\.\.\/img/gim, '../img'),
+        ),
+      )
+      .pipe(
+        app.plugins.if(
+          app.isBuild,
           autoprefixer({
             grid: true,
             overrideBrowserlist: ['last 3 versions'],

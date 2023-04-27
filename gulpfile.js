@@ -10,8 +10,8 @@ import { images } from './gulp/tasks/images.js';
 import { otfToTtf, ttfToWoff, fontsStyle } from './gulp/tasks/fonts.js';
 
 global.app = {
-  isBuild: process.argv.includes('--build'),
-  isDev: !process.argv.includes('--build'),
+  isBuild: process.env.NODE_ENV === 'production',
+  isDev: !process.env.NODE_ENV === 'production',
   path,
   gulp,
   plugins,
