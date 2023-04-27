@@ -1,9 +1,6 @@
 <header class="header">
   <div class="header__wrapper container">
     <div class="header__top">
-      <div class="header-logo badge">
-        <span class="header-logo__text">logo</span>
-      </div>
       <div class="header-profile">
         <a href="#">
           <div
@@ -30,9 +27,23 @@
         Create <strong>flow of templates,<br /></strong>fill them with AI and
         <strong>do x10 more.</strong>
       </h3>
-      <button class="header-content__btn badge badge__interactive">
-        <span class="header-content__text"> Join beta 👈 </span>
-      </button>
+      <form id="header-form" class="header-form">
+        <input
+          id="email-sub"
+          name="email"
+          class="header-form__input"
+          type="email"
+          required
+          autofocus
+          placeholder="E-mail address"
+        />
+        <button
+          class="header-content__btn badge badge__interactive"
+          type="submit"
+        >
+          <span class="header-content__text"> Join beta 👈 </span>
+        </button>
+      </form>
     </article>
   </div>
 </header>
