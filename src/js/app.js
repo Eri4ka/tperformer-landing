@@ -8,5 +8,7 @@ const footerForm = document.querySelector('#footer-form');
 const footerInput = document.querySelector('#email-footer');
 const footerSubmitBtn = document.querySelector('.footer-form__submit');
 
-sendEmail({ form: headerForm, input: headerInput, button: headerSubmitBtn });
-sendEmail({ form: footerForm, input: footerInput, button: footerSubmitBtn });
+window.addEventListener('DOMContentLoaded', () => {
+  sendEmail({ form: headerForm, input: headerInput, button: headerSubmitBtn });
+  sendEmail({ form: footerForm, input: footerInput, button: footerSubmitBtn });
+});
